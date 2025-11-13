@@ -6,14 +6,16 @@
 x = int ("257")
 z = int("257")
 
-x = print(id(x))
-z = print(id(z))
+# x = print(id(x))
+# z = print(id(z))
 
 a = int("3")
 b = int("3")
 
-a = print(id(a))
-b = print(id(b))
+# a = print(id(a))
+# b = print(id(b))
+
+#logical operators
 
 # print(x > 5 and x < 10)  #False
 # print(x > 5 or x < 10)  #True
@@ -22,5 +24,14 @@ b = print(id(b))
 
 # print(x  == z)  #False
 
-print(x is z)  #False
-print(a is b)  #True
+#membership operators
+
+# print(x is z)  #False
+# print(a is b)  #True
+
+# print(x == z)  #True
+
+# fname = "Vishal"
+# print("Vishal" in fname)  #True
+
+# print("s" not in fname)  #False 
